@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="板橋雙子星空氣品質維護區民眾資訊網站範本，整理管制範圍、管制對象、分階段措施與常見問題。">
+  <title>板橋雙子星空氣品質維護區｜新北市</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="板橋雙子星空氣品質維護區首頁">
+        <span class="brand-mark" aria-hidden="true">AQ</span>
+        <span>
+          <b>板橋雙子星空維區</b>
+          <small>Banqiao Twin-Star Air Quality Maintenance Zone</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">開啟導覽選單</span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="主要導覽">
+        <a href="#about">認識空維區</a>
+        <a href="#area">管制範圍</a>
+        <a href="#rules">管制對象</a>
+        <a href="#timeline">分階段管制</a>
+        <a href="#faq">常見問題</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">NEW TAIPEI · CLEAN AIR</p>
+          <h1>一起守護<br><span>板橋城市好空氣</span></h1>
+          <p class="hero-lead">
+            板橋雙子星空氣品質維護區自 2025 年 1 月 1 日起實施，
+            透過車輛排放管理、機車定檢及施工機具管理，
+            降低都會區移動污染源排放。
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#rules">我想知道會不會被管制</a>
+            <a class="btn btn-ghost" href="#area">查看管制範圍</a>
+          </div>
+
+          <div class="hero-status" aria-live="polite">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <div>
+              <small>目前柴油小貨車管制階段</small>
+              <strong id="currentStage">讀取中…</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/hero-city.svg" alt="板橋城市、捷運、公車與綠色空氣意象插畫">
+          <div class="floating-card card-a">
+            <span>柴油車</span>
+            <b>定期排煙檢驗</b>
+          </div>
+          <div class="floating-card card-b">
+            <span>燃油機車</span>
+            <b>記得年度定檢</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info" aria-label="快速資訊">
+      <div class="container quick-grid">
+        <article>
+          <span class="num">01</span>
+          <div><b>2025.01.01</b><small>公告措施生效</small></div>
+        </article>
+        <article>
+          <span class="num">02</span>
+          <div><b>全時段</b><small>特定柴油車與機具管制</small></div>
+        </article>
+        <article>
+          <span class="num">03</span>
+          <div><b>滿 5 年以上</b><small>燃油機車加強取締逾期未定檢</small></div>
+        </article>
+        <article>
+          <span class="num">04</span>
+          <div><b>500～60,000 元</b><small>違反公告可能裁罰</small></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">ABOUT THE ZONE</p>
+          <h2>什麼是板橋雙子星空維區？</h2>
+          <p>
+            空氣品質維護區是針對特定區域加強移動污染源管理的措施。
+            板橋雙子星位於板橋交通與商業活動密集區域，藉由定期檢驗、
+            車牌辨識及現場稽查，促使車輛與施工機具維持良好排放狀態。
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon-box" aria-hidden="true">🚛</span>
+            <h3>柴油車排放管理</h3>
+            <p>柴油大客（貨）車與分階段納管的柴油小貨車，應符合一年內排煙檢驗合格等規定。</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon-box" aria-hidden="true">🛵</span>
+            <h3>機車定檢提醒</h3>
+            <p>出廠滿五年以上的燃油機車，應依規定完成當年度排氣定期檢驗。</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon-box" aria-hidden="true">🏗️</span>
+            <h3>施工機具納管</h3>
+            <p>柴油引擎施工機具須取得有效期限內的清潔排放自主管理標章。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section zone-section" id="area">
+      <div class="container zone-layout">
+        <div class="zone-copy">
+          <p class="kicker">CONTROL AREA</p>
+          <h2>管制範圍一眼看懂</h2>
+          <p class="lead">
+            主要以板橋市中心的民生路二段、文化路一段至南門街、
+            館前西路及中山路一段至二段所圍區域為範圍。
+          </p>
+
+          <div class="road-list">
+            <div><span>A</span><p><b>民生路二段</b><small>文化路一段至中山路二段一帶</small></p></div>
+            <div><span>B</span><p><b>文化路一段 → 南門街</b><small>連接民生路二段與館前西路</small></p></div>
+            <div><span>C</span><p><b>館前西路</b><small>南門街至中山路一段一帶</small></p></div>
+            <div><span>D</span><p><b>中山路一段 → 二段</b><small>館前西路至民生路二段一帶</small></p></div>
+          </div>
+
+          <p class="note">
+            ※ 本圖為民眾閱讀用示意圖，實際範圍仍以新北市政府正式公告及公告附圖為準。
+          </p>
+        </div>
+
+        <div class="zone-map-card">
+          <img src="assets/zone-map.svg" alt="板橋雙子星空氣品質維護區範圍示意圖">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="rules">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="kicker">WHO IS REGULATED?</p>
+          <h2>哪些車輛與機具要注意？</h2>
+          <p>先看自己的車種，再確認是否具備有效檢驗紀錄或標章。</p>
+        </div>
+
+        <div class="rules-grid">
+          <article class="rule-card">
+            <div class="rule-tag">柴油大客（貨）車</div>
+            <h3>一年內排煙檢驗要合格</h3>
+            <p>未取得稽查日前一年內排煙檢驗合格紀錄者，全時段禁止進入。</p>
+            <span class="rule-hint">符合自主管理標章或出廠 3 年內者，依公告規定可不受限制。</span>
+          </article>
+
+          <article class="rule-card featured">
+            <div class="rule-tag">柴油小貨車</div>
+            <h3>依出廠日期分三階段納管</h3>
+            <p>各階段納管車輛若未具一年內排煙檢驗合格紀錄，將受進入管制。</p>
+            <a href="#timeline">查看三階段日期 →</a>
+          </article>
+
+          <article class="rule-card">
+            <div class="rule-tag">燃油機車</div>
+            <h3>滿 5 年要做年度排氣定檢</h3>
+            <p>加強取締出廠滿五年以上、逾期未完成當年度排氣定期檢驗的燃油機車。</p>
+            <span class="rule-hint">建議先完成定檢再進入管制區。</span>
+          </article>
+
+          <article class="rule-card">
+            <div class="rule-tag">柴油施工機具</div>
+            <h3>需要清潔排放自主管理標章</h3>
+            <p>未取得有效期限內標章的柴油引擎施工機具，依公告規定禁止進入。</p>
+            <span class="rule-hint">營建工程使用機具請事先確認標章效期。</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">PHASED CONTROL</p>
+          <h2>柴油小貨車三階段管制</h2>
+          <p>為降低業者衝擊，柴油小貨車依車輛出廠日期逐步擴大納管。</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-start="2025-01-01">
+            <div class="timeline-dot"></div>
+            <p class="timeline-date">第一階段｜2025.01.01 起</p>
+            <h3>2006.09.30（含）前出廠</h3>
+            <p>未有稽查日前一年內排煙檢驗合格紀錄者，依公告納入管制。</p>
+            <span class="stage-badge">目前階段</span>
+          </article>
+
+          <article class="timeline-item" data-start="2027-01-01">
+            <div class="timeline-dot"></div>
+            <p class="timeline-date">第二階段｜2027.01.01 起</p>
+            <h3>2011.12.31（含）前出廠</h3>
+            <p>納管範圍進一步擴大，請車主提前確認檢驗紀錄。</p>
+            <span class="stage-badge">尚未開始</span>
+          </article>
+
+          <article class="timeline-item" data-start="2029-01-01">
+            <div class="timeline-dot"></div>
+            <p class="timeline-date">第三階段｜2029.01.01 起</p>
+            <h3>所有期別柴油小貨車</h3>
+            <p>第三階段起，全期別柴油小貨車皆納入公告管制對象。</p>
+            <span class="stage-badge">尚未開始</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="check-section">
+      <div class="container check-card">
+        <div>
+          <p class="kicker">BEFORE YOU GO</p>
+          <h2>進入空維區前，先做 3 件事</h2>
+        </div>
+        <ol class="check-list">
+          <li><span>1</span><p><b>確認車種與出廠日期</b><small>判斷是否屬於目前納管對象。</small></p></li>
+          <li><span>2</span><p><b>確認檢驗或標章效期</b><small>柴油車看排煙檢驗；機車看年度定檢；施工機具看標章。</small></p></li>
+          <li><span>3</span><p><b>提前完成檢驗</b><small>不要等到進入管制區後才處理。</small></p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-light" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <p class="kicker">FAQ</p>
+          <h2>常見問題</h2>
+          <p>用簡單方式快速了解空維區規定。</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>所有車輛都不能進入空維區嗎？</span><i>＋</i>
+            </button>
+            <div class="faq-answer">
+              <p>不是。空維區是針對公告特定車種與污染條件進行管理，符合檢驗、標章或公告排除條件的車輛可依規定通行。</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>我的燃油機車滿 5 年，還可以進去嗎？</span><i>＋</i>
+            </button>
+            <div class="faq-answer">
+              <p>重點是是否完成當年度排氣定期檢驗。出廠滿五年以上且逾期未完成當年度定檢者，屬加強取締對象。</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>柴油小貨車現在管到哪一年？</span><i>＋</i>
+            </button>
+            <div class="faq-answer">
+              <p id="truckFaq">系統會依目前日期自動顯示管制階段。</p>
+            </div>
+          </article>
+
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>違反規定會罰多少？</span><i>＋</i>
+            </button>
+            <div class="faq-answer">
+              <p>依公告內容，違反者可依空氣污染防制法相關規定處新臺幣 500 元以上、60,000 元以下罰鍰，並得要求改善。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="official-section">
+      <div class="container official-card">
+        <div>
+          <span class="official-icon" aria-hidden="true">↗</span>
+          <div>
+            <p class="kicker">OFFICIAL INFORMATION</p>
+            <h2>正式規定請以新北市政府環保局公告為準</h2>
+            <p>本網站為資訊整理範本，正式發布前請確認最新公告、聯絡方式及查詢連結。</p>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="https://www.epd.ntpc.gov.tw/StaticPage/banqiao-airzone-mobile-control" target="_blank" rel="noopener">
+          前往環保局公告
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <b>板橋雙子星空氣品質維護區</b>
+        <p>讓車輛維持好狀態，讓城市多一點清新空氣。</p>
+      </div>
+      <div class="footer-links">
+        <a href="#top">回到頂端</a>
+        <a href="#area">管制範圍</a>
+        <a href="#rules">管制對象</a>
+        <a href="#faq">常見問題</a>
+      </div>
+    </div>
+    <div class="container disclaimer">
+      <p>【本頁為網站範本，正式發布前請更新聯絡方式及公告內容。】</p>
+      <p>資料參考：新北市政府環境保護局｜網站範本更新日期：2026-08-31</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="回到頁面頂端">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

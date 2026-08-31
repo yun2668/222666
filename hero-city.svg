@@ -1,0 +1,88 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="sky" x1="450" y1="40" x2="450" y2="650" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F8FCFA"/>
+    <stop offset="1" stop-color="#D8EEE7"/>
+  </linearGradient>
+  <linearGradient id="tower" x1="350" y1="160" x2="500" y2="520">
+    <stop stop-color="#0F8B78"/>
+    <stop offset="1" stop-color="#07534A"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B554A" flood-opacity=".14"/>
+  </filter>
+</defs>
+<rect x="45" y="32" width="810" height="610" rx="74" fill="url(#sky)"/>
+<circle cx="682" cy="162" r="82" fill="#CBEA89" opacity=".72"/>
+<circle cx="682" cy="162" r="58" stroke="#A3D653" stroke-width="2" stroke-dasharray="7 9" opacity=".8"/>
+<path d="M80 540C219 501 289 548 424 514C546 483 647 502 819 454" stroke="#9CCDC1" stroke-width="2" stroke-dasharray="8 10"/>
+<path d="M80 574C257 531 349 582 510 542C645 509 732 535 819 510" stroke="#B6D9D0" stroke-width="2" stroke-dasharray="8 10"/>
+
+<!-- City -->
+<g filter="url(#shadow)">
+  <rect x="178" y="328" width="120" height="210" rx="8" fill="#E9F2EF"/>
+  <rect x="205" y="286" width="105" height="252" rx="8" fill="#F6FAF8"/>
+  <rect x="238" y="226" width="94" height="312" rx="9" fill="#E7F2EE"/>
+  <rect x="357" y="185" width="122" height="353" rx="11" fill="url(#tower)"/>
+  <rect x="486" y="255" width="109" height="283" rx="9" fill="#F5FAF8"/>
+  <rect x="584" y="320" width="102" height="218" rx="9" fill="#E7F2EE"/>
+</g>
+
+<!-- Tower details -->
+<g opacity=".9">
+  <path d="M379 230H457M379 266H457M379 302H457M379 338H457M379 374H457M379 410H457M379 446H457" stroke="#77CDBB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M397 207V513M438 207V513" stroke="#A5E0D3" stroke-width="3" opacity=".55"/>
+</g>
+
+<!-- Windows -->
+<g fill="#A8C9C2">
+  <rect x="254" y="257" width="17" height="17" rx="3"/><rect x="284" y="257" width="17" height="17" rx="3"/>
+  <rect x="254" y="294" width="17" height="17" rx="3"/><rect x="284" y="294" width="17" height="17" rx="3"/>
+  <rect x="254" y="331" width="17" height="17" rx="3"/><rect x="284" y="331" width="17" height="17" rx="3"/>
+  <rect x="254" y="368" width="17" height="17" rx="3"/><rect x="284" y="368" width="17" height="17" rx="3"/>
+  <rect x="514" y="290" width="17" height="17" rx="3"/><rect x="545" y="290" width="17" height="17" rx="3"/>
+  <rect x="514" y="327" width="17" height="17" rx="3"/><rect x="545" y="327" width="17" height="17" rx="3"/>
+  <rect x="514" y="364" width="17" height="17" rx="3"/><rect x="545" y="364" width="17" height="17" rx="3"/>
+</g>
+
+<!-- Road -->
+<path d="M112 558H773C804 558 828 582 828 613V628H82V588C82 571 95 558 112 558Z" fill="#294A4A"/>
+<path d="M123 592H205M251 592H333M379 592H461M507 592H589M635 592H717" stroke="#E7F3EF" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+
+<!-- bus -->
+<g transform="translate(147 487)">
+ <rect x="0" y="24" width="178" height="77" rx="18" fill="#FFFFFF" stroke="#B8D5CE" stroke-width="3"/>
+ <path d="M18 24H138C159 24 174 40 174 59V63H18V24Z" fill="#70C8B5"/>
+ <rect x="31" y="35" width="38" height="22" rx="4" fill="#DFF5EF"/>
+ <rect x="77" y="35" width="38" height="22" rx="4" fill="#DFF5EF"/>
+ <rect x="123" y="35" width="32" height="22" rx="4" fill="#DFF5EF"/>
+ <circle cx="39" cy="101" r="18" fill="#173D3C"/><circle cx="39" cy="101" r="8" fill="#BED8D1"/>
+ <circle cx="140" cy="101" r="18" fill="#173D3C"/><circle cx="140" cy="101" r="8" fill="#BED8D1"/>
+</g>
+
+<!-- scooter -->
+<g transform="translate(625 525)">
+  <circle cx="25" cy="68" r="21" fill="#193C3B"/><circle cx="25" cy="68" r="9" fill="#BFD7D1"/>
+  <circle cx="112" cy="68" r="21" fill="#193C3B"/><circle cx="112" cy="68" r="9" fill="#BFD7D1"/>
+  <path d="M26 61H64L83 24H111" stroke="#0F8B78" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M63 60H103L89 40H60Z" fill="#95D7C9"/>
+  <path d="M82 23L75 7H96" stroke="#173D3C" stroke-width="6" stroke-linecap="round"/>
+</g>
+
+<!-- metro icon -->
+<g transform="translate(696 260)">
+ <circle cx="52" cy="52" r="51" fill="#FFFFFF" stroke="#C9E0D9" stroke-width="2"/>
+ <circle cx="52" cy="52" r="34" fill="#B9DF67"/>
+ <path d="M38 71L52 32L66 71M43 58H61" stroke="#173D3C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- trees -->
+<g>
+ <rect x="104" y="475" width="9" height="72" rx="4" fill="#7B9A73"/><circle cx="109" cy="464" r="34" fill="#8CCF78"/>
+ <rect x="748" y="448" width="9" height="96" rx="4" fill="#7B9A73"/><circle cx="753" cy="435" r="42" fill="#8CCF78"/>
+ <circle cx="728" cy="452" r="26" fill="#A7DA74"/>
+</g>
+
+<text x="112" y="112" fill="#0C6A5D" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="3">BANQIAO · CLEAN AIR</text>
+<text x="112" y="145" fill="#5A7874" font-family="Arial, sans-serif" font-size="14">AIR QUALITY MAINTENANCE ZONE</text>
+</svg>
