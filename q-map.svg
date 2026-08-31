@@ -1,0 +1,39 @@
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#E2EFEA"/></pattern></defs>
+<rect width="700" height="560" rx="28" fill="#F8FCFA"/>
+<rect width="700" height="560" rx="28" fill="url(#g)" opacity=".7"/>
+<!-- background roads -->
+<g stroke="#D4E1DD" stroke-width="9" stroke-linecap="round">
+<path d="M40 120C165 101 277 124 398 90C505 61 588 78 662 109"/>
+<path d="M53 489C167 450 288 472 402 440C512 409 596 420 658 395"/>
+<path d="M102 44C87 175 101 289 72 521"/>
+<path d="M600 43C584 176 604 302 576 526"/>
+</g>
+<!-- zone -->
+<path d="M196 139L499 113L558 383L173 430L133 245L196 139Z" fill="#45B89F" opacity=".23"/>
+<path d="M196 139L499 113L558 383L173 430L133 245L196 139Z" stroke="#168B78" stroke-width="8" stroke-dasharray="13 9" stroke-linejoin="round"/>
+<!-- road boundary -->
+<g stroke="#168B78" stroke-width="16" stroke-linecap="round">
+<path d="M196 139L499 113"/><path d="M499 113L558 383"/><path d="M558 383L173 430"/><path d="M173 430L133 245L196 139"/>
+</g>
+<!-- roads inside -->
+<g stroke="#A3C5BC" stroke-width="7" stroke-linecap="round"><path d="M151 264L528 226"/><path d="M162 351L545 312"/><path d="M260 134L296 416"/><path d="M394 121L433 399"/></g>
+<!-- station -->
+<g transform="translate(296 292)">
+<circle r="31" fill="#173943"/><path d="M-14 11H14V-6H-14Z" fill="#fff"/><path d="M-17 13L0-12L17 13" stroke="#fff" stroke-width="4" fill="none" stroke-linejoin="round"/>
+<rect x="-53" y="41" width="106" height="33" rx="10" fill="#fff" stroke="#D7E8E2"/><text x="-37" y="63" font-size="15" fill="#173943" font-family="Microsoft JhengHei" font-weight="700">板橋車站</text>
+</g>
+<!-- labels -->
+<g font-family="Microsoft JhengHei" font-weight="700">
+<rect x="275" y="56" width="142" height="38" rx="12" fill="#fff"/><text x="295" y="81" fill="#168B78" font-size="16">民生路二段</text>
+<rect x="530" y="210" width="143" height="55" rx="12" fill="#fff"/><text x="545" y="233" fill="#168B78" font-size="15">中山路一段</text><text x="548" y="253" fill="#72888B" font-size="12">→ 中山路二段</text>
+<rect x="285" y="442" width="125" height="38" rx="12" fill="#fff"/><text x="307" y="467" fill="#168B78" font-size="16">館前西路</text>
+<rect x="24" y="190" width="143" height="57" rx="12" fill="#fff"/><text x="42" y="214" fill="#168B78" font-size="15">文化路一段</text><text x="48" y="235" fill="#72888B" font-size="12">→ 南門街</text>
+</g>
+<!-- cute air mascot -->
+<g transform="translate(525 55)">
+<path d="M15 61C3 61-5 52-2 41C1 31 10 27 19 29C20 17 29 9 41 9C52 9 61 16 63 26C73 24 83 30 85 41C87 52 79 61 67 61H15Z" fill="#fff" stroke="#C4E7DD" stroke-width="2"/>
+<circle cx="28" cy="41" r="3" fill="#173943"/><circle cx="53" cy="41" r="3" fill="#173943"/><path d="M34 49C39 54 44 54 48 49" stroke="#168B78" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+<text x="30" y="35" font-size="20" fill="#173943" font-family="Microsoft JhengHei" font-weight="900">板橋雙子星空維區｜Q版範圍示意</text>
+</svg>

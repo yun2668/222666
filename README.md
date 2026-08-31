@@ -1,20 +1,22 @@
-# 板橋雙子星空氣品質維護區網站範本
+# 板橋雙子星空維區｜Q版民眾簡單看懂版
 
-## 檔案
-- `index.html`：網站主頁
-- `style.css`：完整排版與 RWD
-- `script.js`：手機選單、FAQ、回到頂端、柴油小貨車管制階段自動判斷
-- `assets/hero-city.svg`：首頁主視覺，不依賴外部圖片
-- `assets/zone-map.svg`：管制範圍示意圖，不依賴外部圖片
+## 這一版修正了什麼
+1. 所有文字「預設顯示」，不再使用會把內容先隱藏的動畫。
+2. 版面改成大字、大卡片、短句，手機與電腦都較不容易跑版。
+3. 圖片全部放在 `assets` 資料夾內，使用本機 SVG，不依賴外部圖片網址。
+4. 管制資訊改成「先看車種 → 再看要做什麼」的民眾閱讀順序。
+5. `script.js` 只負責手機選單及柴油小貨車目前階段文字，不會控制內容顯示。
 
-## GitHub Pages 使用方式
-1. 建立新的 GitHub Repository。
-2. 把本資料夾內的全部檔案上傳到 Repository 根目錄。
-3. 到 Settings → Pages。
-4. Branch 選擇 `main`，資料夾選擇 `/ (root)`。
-5. 儲存後即可取得 GitHub Pages 網址。
+## GitHub Pages
+請把以下檔案「連同 assets 資料夾」一起上傳到 GitHub：
+- index.html
+- style.css
+- script.js
+- assets/
 
-## 重要
-本頁為網站範本，正式發布前請更新聯絡方式及公告內容。
-正式管制資訊請以新北市政府環境保護局公告為準：
+請勿只上傳三個主檔案，否則 Q 版插圖會消失。
+
+## 正式公告
 https://www.epd.ntpc.gov.tw/StaticPage/banqiao-airzone-mobile-control
+
+【本頁為網站範本，正式發布前請更新聯絡方式及公告內容。】
