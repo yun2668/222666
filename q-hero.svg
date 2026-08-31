@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F7FFFC"/><stop offset="1" stop-color="#CFEDE4"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#1F6055" flood-opacity=".14"/></filter>
+</defs>
+<rect x="28" y="30" width="664" height="454" rx="70" fill="url(#s)"/>
+<circle cx="570" cy="104" r="62" fill="#FFE7A8"/>
+<g fill="#fff" opacity=".9"><ellipse cx="145" cy="112" rx="48" ry="25"/><ellipse cx="183" cy="112" rx="34" ry="21"/><ellipse cx="165" cy="93" rx="31" ry="27"/></g>
+<!-- skyline -->
+<g filter="url(#sh)">
+ <rect x="120" y="262" width="84" height="144" rx="12" fill="#FFF"/>
+ <rect x="201" y="204" width="92" height="202" rx="12" fill="#E4F4EF"/>
+ <rect x="292" y="156" width="118" height="250" rx="14" fill="#168B78"/>
+ <rect x="411" y="232" width="92" height="174" rx="12" fill="#FFF"/>
+ <rect x="499" y="284" width="88" height="122" rx="12" fill="#E4F4EF"/>
+</g>
+<g fill="#8FD5C4">
+ <rect x="315" y="185" width="22" height="25" rx="4"/><rect x="365" y="185" width="22" height="25" rx="4"/>
+ <rect x="315" y="229" width="22" height="25" rx="4"/><rect x="365" y="229" width="22" height="25" rx="4"/>
+ <rect x="315" y="273" width="22" height="25" rx="4"/><rect x="365" y="273" width="22" height="25" rx="4"/>
+</g>
+<!-- road -->
+<path d="M83 405H627C654 405 676 427 676 454V470H52V436C52 419 66 405 83 405Z" fill="#31545A"/>
+<path d="M97 438H165M211 438H279M325 438H393M439 438H507M553 438H621" stroke="#EAF8F4" stroke-width="6" stroke-linecap="round"/>
+<!-- smiling cloud mascot -->
+<g transform="translate(455 78)" filter="url(#sh)">
+ <path d="M34 95C10 95-4 79 2 59C7 40 24 33 41 36C43 14 59 0 80 0C101 0 116 13 120 32C138 28 158 39 162 59C166 80 151 95 128 95H34Z" fill="#fff" stroke="#BFE4D9" stroke-width="3"/>
+ <circle cx="58" cy="55" r="5" fill="#173943"/><circle cx="104" cy="55" r="5" fill="#173943"/>
+ <path d="M69 69C76 77 87 77 94 69" stroke="#168B78" stroke-width="4" fill="none" stroke-linecap="round"/>
+ <circle cx="48" cy="67" r="7" fill="#FFD2C2" opacity=".7"/><circle cx="114" cy="67" r="7" fill="#FFD2C2" opacity=".7"/>
+</g>
+<!-- scooter -->
+<g transform="translate(110 350)">
+ <circle cx="30" cy="77" r="23" fill="#173943"/><circle cx="30" cy="77" r="10" fill="#B9D8D1"/>
+ <circle cx="118" cy="77" r="23" fill="#173943"/><circle cx="118" cy="77" r="10" fill="#B9D8D1"/>
+ <path d="M30 69H70L88 31H117" stroke="#F1A75B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M69 69H109L96 48H66Z" fill="#FFD787"/>
+ <path d="M87 30L80 13H102" stroke="#173943" stroke-width="6" stroke-linecap="round"/>
+</g>
+<!-- trees -->
+<g><rect x="80" y="330" width="9" height="77" rx="5" fill="#778F6F"/><circle cx="85" cy="317" r="38" fill="#94D47C"/><rect x="609" y="328" width="9" height="77" rx="5" fill="#778F6F"/><circle cx="614" cy="314" r="38" fill="#94D47C"/></g>
+<text x="72" y="78" fill="#168B78" font-size="17" font-family="Arial" font-weight="700" letter-spacing="2">BANQIAO CLEAN AIR</text>
+</svg>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#EAF8F4" name="theme-color"/>
+<meta content="板橋雙子星空氣品質維護區民眾版網站範本，以簡單圖文說明管制範圍、柴油車、燃油機車與施工機具規定。" name="description"/>
+<title>板橋雙子星空氣品質維護區｜民眾簡單看懂版</title>
+<link href="style.css" rel="stylesheet"/>
+<meta content="inline-svg-no-assets-folder-required" name="x-assets-mode"/></head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+<header class="topbar">
+<div class="wrap nav">
+<a aria-label="回到首頁" class="logo" href="#top">
+<span class="logo-bubble">空氣</span>
+<span>
+<b>板橋雙子星空維區</b>
+<small>民眾簡單看懂版</small>
+</span>
+</a>
+<button aria-expanded="false" aria-label="開啟選單" class="menu" id="menuBtn">☰</button>
+<nav id="navMenu">
+<a href="#easy">先看重點</a>
+<a href="#area">範圍在哪</a>
+<a href="#who">誰要注意</a>
+<a href="#steps">進入前怎麼做</a>
+<a href="#faq">常見問題</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero" id="top">
+<div aria-hidden="true" class="sky-deco"></div>
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<span class="pill">2025 年 1 月 1 日起實施</span>
+<h1>進入板橋市中心前<br/><em>先幫愛車做個小檢查！</em></h1>
+<p>
+            「板橋雙子星空氣品質維護區」不是所有車都不能進入。
+            只要先確認自己的車種、檢驗紀錄或標章是否符合規定，就能更安心通行。
+          </p>
+<div class="hero-actions">
+<a class="btn primary" href="#who">30 秒看我會不會被管制</a>
+<a class="btn secondary" href="#area">看看管制範圍</a>
+</div>
+<div class="today">
+<span class="dot"></span>
+<div>
+<small>柴油小貨車目前階段</small>
+<b id="stageText">第一階段</b>
+</div>
+</div>
+</div>
+<div class="hero-art">
+<svg aria-label="Q版板橋城市與微笑空氣雲插畫" class="embedded-svg" role="img" viewbox="0 0 720 540" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<lineargradient id="s" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#F7FFFC"></stop><stop offset="1" stop-color="#CFEDE4"></stop></lineargradient>
+<filter id="sh"><fedropshadow dx="0" dy="10" flood-color="#1F6055" flood-opacity=".14" stddeviation="10"></fedropshadow></filter>
+</defs>
+<rect fill="url(#s)" height="454" rx="70" width="664" x="28" y="30"></rect>
+<circle cx="570" cy="104" fill="#FFE7A8" r="62"></circle>
+<g fill="#fff" opacity=".9"><ellipse cx="145" cy="112" rx="48" ry="25"></ellipse><ellipse cx="183" cy="112" rx="34" ry="21"></ellipse><ellipse cx="165" cy="93" rx="31" ry="27"></ellipse></g>
+<!-- skyline -->
+<g filter="url(#sh)">
+<rect fill="#FFF" height="144" rx="12" width="84" x="120" y="262"></rect>
+<rect fill="#E4F4EF" height="202" rx="12" width="92" x="201" y="204"></rect>
+<rect fill="#168B78" height="250" rx="14" width="118" x="292" y="156"></rect>
+<rect fill="#FFF" height="174" rx="12" width="92" x="411" y="232"></rect>
+<rect fill="#E4F4EF" height="122" rx="12" width="88" x="499" y="284"></rect>
+</g>
+<g fill="#8FD5C4">
+<rect height="25" rx="4" width="22" x="315" y="185"></rect><rect height="25" rx="4" width="22" x="365" y="185"></rect>
+<rect height="25" rx="4" width="22" x="315" y="229"></rect><rect height="25" rx="4" width="22" x="365" y="229"></rect>
+<rect height="25" rx="4" width="22" x="315" y="273"></rect><rect height="25" rx="4" width="22" x="365" y="273"></rect>
+</g>
+<!-- road -->
+<path d="M83 405H627C654 405 676 427 676 454V470H52V436C52 419 66 405 83 405Z" fill="#31545A"></path>
+<path d="M97 438H165M211 438H279M325 438H393M439 438H507M553 438H621" stroke="#EAF8F4" stroke-linecap="round" stroke-width="6"></path>
+<!-- smiling cloud mascot -->
+<g filter="url(#sh)" transform="translate(455 78)">
+<path d="M34 95C10 95-4 79 2 59C7 40 24 33 41 36C43 14 59 0 80 0C101 0 116 13 120 32C138 28 158 39 162 59C166 80 151 95 128 95H34Z" fill="#fff" stroke="#BFE4D9" stroke-width="3"></path>
+<circle cx="58" cy="55" fill="#173943" r="5"></circle><circle cx="104" cy="55" fill="#173943" r="5"></circle>
+<path d="M69 69C76 77 87 77 94 69" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+<circle cx="48" cy="67" fill="#FFD2C2" opacity=".7" r="7"></circle><circle cx="114" cy="67" fill="#FFD2C2" opacity=".7" r="7"></circle>
+</g>
+<!-- scooter -->
+<g transform="translate(110 350)">
+<circle cx="30" cy="77" fill="#173943" r="23"></circle><circle cx="30" cy="77" fill="#B9D8D1" r="10"></circle>
+<circle cx="118" cy="77" fill="#173943" r="23"></circle><circle cx="118" cy="77" fill="#B9D8D1" r="10"></circle>
+<path d="M30 69H70L88 31H117" stroke="#F1A75B" stroke-linecap="round" stroke-linejoin="round" stroke-width="13"></path>
+<path d="M69 69H109L96 48H66Z" fill="#FFD787"></path>
+<path d="M87 30L80 13H102" stroke="#173943" stroke-linecap="round" stroke-width="6"></path>
+</g>
+<!-- trees -->
+<g><rect fill="#778F6F" height="77" rx="5" width="9" x="80" y="330"></rect><circle cx="85" cy="317" fill="#94D47C" r="38"></circle><rect fill="#778F6F" height="77" rx="5" width="9" x="609" y="328"></rect><circle cx="614" cy="314" fill="#94D47C" r="38"></circle></g>
+<text fill="#168B78" font-family="Arial" font-size="17" font-weight="700" letter-spacing="2" x="72" y="78">BANQIAO CLEAN AIR</text>
+</svg>
+</div>
+</div>
+</section>
+<section class="easy-section" id="easy">
+<div class="wrap">
+<div class="title center">
+<span>先看這裡</span>
+<h2>空維區，其實只要記住 3 件事</h2>
+<p>不用先讀法規，先確認下面三件事就好。</p>
+</div>
+<div class="three-things">
+<article>
+<div class="round">1</div>
+<svg aria-label="Q版柴油貨車" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#DDEDE8" rx="110" ry="14"></ellipse>
+<rect fill="#45B89F" height="78" rx="16" width="144" x="35" y="70"></rect>
+<path d="M179 93H228L260 125V148H179Z" fill="#168B78"></path>
+<path d="M194 101H225L244 124H194Z" fill="#DFF3FA"></path>
+<rect fill="#EAF8F4" height="35" rx="8" width="100" x="49" y="83"></rect>
+<circle cx="84" cy="149" fill="#173943" r="24"></circle><circle cx="84" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="222" cy="149" fill="#173943" r="24"></circle><circle cx="222" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="83" cy="100" fill="#173943" r="4"></circle><circle cx="115" cy="100" fill="#173943" r="4"></circle>
+<path d="M92 109C98 116 107 116 113 109" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+<path d="M42 56C50 40 70 37 82 51" opacity=".7" stroke="#B8D5CF" stroke-linecap="round" stroke-width="6"></path>
+</svg>
+<h3>柴油車</h3>
+<p>先看有沒有符合規定的<strong>排煙檢驗紀錄</strong>。</p>
+</article>
+<article>
+<div class="round">2</div>
+<svg aria-label="Q版燃油機車" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#EFE8D6" rx="105" ry="14"></ellipse>
+<circle cx="73" cy="142" fill="#173943" r="28"></circle><circle cx="73" cy="142" fill="#BFD8D1" r="12"></circle>
+<circle cx="221" cy="142" fill="#173943" r="28"></circle><circle cx="221" cy="142" fill="#BFD8D1" r="12"></circle>
+<path d="M75 130H136L167 70H222" stroke="#F1A75B" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"></path>
+<path d="M133 132H207L184 94H124Z" fill="#FFD98A"></path>
+<path d="M165 70L154 41H190" stroke="#173943" stroke-linecap="round" stroke-width="9"></path>
+<rect fill="#173943" height="17" rx="9" width="61" x="113" y="82"></rect>
+<circle cx="139" cy="111" fill="#173943" r="5"></circle><circle cx="161" cy="111" fill="#173943" r="5"></circle>
+<path d="M144 121C149 126 155 126 160 121" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+<h3>5 年以上燃油機車</h3>
+<p>記得完成<strong>當年度排氣定期檢驗</strong>。</p>
+</article>
+<article>
+<div class="round">3</div>
+<svg aria-label="Q版柴油施工機具" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#DFEEE9" rx="108" ry="14"></ellipse>
+<rect fill="#F1C75B" height="61" rx="14" width="120" x="58" y="86"></rect>
+<rect fill="#FFD982" height="45" rx="8" width="62" x="83" y="60"></rect>
+<path d="M178 101H218L247 132H178Z" fill="#E7B440"></path>
+<circle cx="89" cy="147" fill="#173943" r="24"></circle><circle cx="89" cy="147" fill="#BFD8D1" r="10"></circle>
+<circle cx="205" cy="147" fill="#173943" r="24"></circle><circle cx="205" cy="147" fill="#BFD8D1" r="10"></circle>
+<path d="M190 98L218 57L250 57" stroke="#173943" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"></path>
+<path d="M247 57L265 99" stroke="#173943" stroke-linecap="round" stroke-width="9"></path>
+<circle cx="104" cy="80" fill="#173943" r="4"></circle><circle cx="126" cy="80" fill="#173943" r="4"></circle>
+<path d="M109 90C114 95 120 95 125 90" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+<h3>柴油施工機具</h3>
+<p>先確認有沒有<strong>有效的清潔排放標章</strong>。</p>
+</article>
+</div>
+<div class="friendly-note">
+<span>💡</span>
+<p><b>最簡單的理解：</b>車輛有按規定檢驗、機具有有效標章，就不用看到「空維區」三個字就緊張。</p>
+</div>
+</div>
+</section>
+<section class="area-section" id="area">
+<div class="wrap area-grid">
+<div class="area-copy">
+<div class="title">
+<span>範圍在哪裡？</span>
+<h2>大約就在板橋車站周邊的市中心區域</h2>
+</div>
+<p class="lead">
+            空維區主要由下面 4 組道路圍起來。網站用簡單示意圖幫你快速辨認，
+            實際邊界仍以新北市政府正式公告附圖為準。
+          </p>
+<div class="road-cards">
+<div><b>① 民生路二段</b><small>文化路一段至中山路二段一帶</small></div>
+<div><b>② 文化路一段 → 南門街</b><small>連接民生路二段與館前西路</small></div>
+<div><b>③ 館前西路</b><small>南門街至中山路一段一帶</small></div>
+<div><b>④ 中山路一段 → 二段</b><small>館前西路至民生路二段一帶</small></div>
+</div>
+</div>
+<div class="map-box">
+<svg aria-label="板橋雙子星空氣品質維護區Q版範圍示意圖" class="embedded-svg" role="img" viewbox="0 0 700 560" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern height="28" id="g" patternunits="userSpaceOnUse" width="28"><path d="M28 0H0V28" fill="none" stroke="#E2EFEA"></path></pattern></defs>
+<rect fill="#F8FCFA" height="560" rx="28" width="700"></rect>
+<rect fill="url(#g)" height="560" opacity=".7" rx="28" width="700"></rect>
+<!-- background roads -->
+<g stroke="#D4E1DD" stroke-linecap="round" stroke-width="9">
+<path d="M40 120C165 101 277 124 398 90C505 61 588 78 662 109"></path>
+<path d="M53 489C167 450 288 472 402 440C512 409 596 420 658 395"></path>
+<path d="M102 44C87 175 101 289 72 521"></path>
+<path d="M600 43C584 176 604 302 576 526"></path>
+</g>
+<!-- zone -->
+<path d="M196 139L499 113L558 383L173 430L133 245L196 139Z" fill="#45B89F" opacity=".23"></path>
+<path d="M196 139L499 113L558 383L173 430L133 245L196 139Z" stroke="#168B78" stroke-dasharray="13 9" stroke-linejoin="round" stroke-width="8"></path>
+<!-- road boundary -->
+<g stroke="#168B78" stroke-linecap="round" stroke-width="16">
+<path d="M196 139L499 113"></path><path d="M499 113L558 383"></path><path d="M558 383L173 430"></path><path d="M173 430L133 245L196 139"></path>
+</g>
+<!-- roads inside -->
+<g stroke="#A3C5BC" stroke-linecap="round" stroke-width="7"><path d="M151 264L528 226"></path><path d="M162 351L545 312"></path><path d="M260 134L296 416"></path><path d="M394 121L433 399"></path></g>
+<!-- station -->
+<g transform="translate(296 292)">
+<circle fill="#173943" r="31"></circle><path d="M-14 11H14V-6H-14Z" fill="#fff"></path><path d="M-17 13L0-12L17 13" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="4"></path>
+<rect fill="#fff" height="33" rx="10" stroke="#D7E8E2" width="106" x="-53" y="41"></rect><text fill="#173943" font-family="Microsoft JhengHei" font-size="15" font-weight="700" x="-37" y="63">板橋車站</text>
+</g>
+<!-- labels -->
+<g font-family="Microsoft JhengHei" font-weight="700">
+<rect fill="#fff" height="38" rx="12" width="142" x="275" y="56"></rect><text fill="#168B78" font-size="16" x="295" y="81">民生路二段</text>
+<rect fill="#fff" height="55" rx="12" width="143" x="530" y="210"></rect><text fill="#168B78" font-size="15" x="545" y="233">中山路一段</text><text fill="#72888B" font-size="12" x="548" y="253">→ 中山路二段</text>
+<rect fill="#fff" height="38" rx="12" width="125" x="285" y="442"></rect><text fill="#168B78" font-size="16" x="307" y="467">館前西路</text>
+<rect fill="#fff" height="57" rx="12" width="143" x="24" y="190"></rect><text fill="#168B78" font-size="15" x="42" y="214">文化路一段</text><text fill="#72888B" font-size="12" x="48" y="235">→ 南門街</text>
+</g>
+<!-- cute air mascot -->
+<g transform="translate(525 55)">
+<path d="M15 61C3 61-5 52-2 41C1 31 10 27 19 29C20 17 29 9 41 9C52 9 61 16 63 26C73 24 83 30 85 41C87 52 79 61 67 61H15Z" fill="#fff" stroke="#C4E7DD" stroke-width="2"></path>
+<circle cx="28" cy="41" fill="#173943" r="3"></circle><circle cx="53" cy="41" fill="#173943" r="3"></circle><path d="M34 49C39 54 44 54 48 49" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="3"></path>
+</g>
+<text fill="#173943" font-family="Microsoft JhengHei" font-size="20" font-weight="900" x="30" y="35">板橋雙子星空維區｜Q版範圍示意</text>
+</svg>
+<p>Q版示意圖｜不是導航地圖</p>
+</div>
+</div>
+</section>
+<section class="who-section" id="who">
+<div class="wrap">
+<div class="title center light">
+<span>我會不會被管制？</span>
+<h2>找到你的車種，看右邊這一句就好</h2>
+<p>以下是民眾閱讀版摘要，完整例外條件仍以正式公告為準。</p>
+</div>
+<div class="people-cards">
+<article class="who-card">
+<div class="who-icon"><svg aria-label="Q版柴油大客貨車" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#DDEDE8" rx="112" ry="14"></ellipse>
+<rect fill="#6FC4B2" height="96" rx="22" width="224" x="38" y="53"></rect>
+<path d="M53 65H238C247 65 253 72 253 81V103H53Z" fill="#DFF3FA"></path>
+<path d="M99 66V102M147 66V102M195 66V102" stroke="#A8DAD0" stroke-width="5"></path>
+<rect fill="#EAF8F4" height="15" rx="6" width="59" x="60" y="113"></rect>
+<circle cx="82" cy="149" fill="#173943" r="24"></circle><circle cx="82" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="221" cy="149" fill="#173943" r="24"></circle><circle cx="221" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="134" cy="119" fill="#173943" r="4"></circle><circle cx="160" cy="119" fill="#173943" r="4"></circle>
+<path d="M140 129C146 135 153 135 159 129" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+</svg></div>
+<div class="who-text">
+<span class="tag">柴油大客（貨）車</span>
+<h3>有一年內排煙檢驗合格紀錄嗎？</h3>
+<p><b>有：</b>依公告規定通行。<br/><b>沒有：</b>原則上全時段禁止進入。</p>
+</div>
+<div class="answer warning">先確認排煙檢驗</div>
+</article>
+<article class="who-card featured">
+<div class="who-icon"><svg aria-label="Q版柴油小貨車" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#DDEDE8" rx="110" ry="14"></ellipse>
+<rect fill="#45B89F" height="78" rx="16" width="144" x="35" y="70"></rect>
+<path d="M179 93H228L260 125V148H179Z" fill="#168B78"></path>
+<path d="M194 101H225L244 124H194Z" fill="#DFF3FA"></path>
+<rect fill="#EAF8F4" height="35" rx="8" width="100" x="49" y="83"></rect>
+<circle cx="84" cy="149" fill="#173943" r="24"></circle><circle cx="84" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="222" cy="149" fill="#173943" r="24"></circle><circle cx="222" cy="149" fill="#BFD8D1" r="10"></circle>
+<circle cx="83" cy="100" fill="#173943" r="4"></circle><circle cx="115" cy="100" fill="#173943" r="4"></circle>
+<path d="M92 109C98 116 107 116 113 109" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+<path d="M42 56C50 40 70 37 82 51" opacity=".7" stroke="#B8D5CF" stroke-linecap="round" stroke-width="6"></path>
+</svg></div>
+<div class="who-text">
+<span class="tag">柴油小貨車</span>
+<h3>除了排煙檢驗，還要看「出廠日期」</h3>
+<p id="truckRule">目前第一階段，2006 年 9 月 30 日（含）前出廠車輛優先納管。</p>
+</div>
+<a class="answer link" href="#timeline">看三階段時程 ↓</a>
+</article>
+<article class="who-card">
+<div class="who-icon"><svg aria-label="Q版燃油機車" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#EFE8D6" rx="105" ry="14"></ellipse>
+<circle cx="73" cy="142" fill="#173943" r="28"></circle><circle cx="73" cy="142" fill="#BFD8D1" r="12"></circle>
+<circle cx="221" cy="142" fill="#173943" r="28"></circle><circle cx="221" cy="142" fill="#BFD8D1" r="12"></circle>
+<path d="M75 130H136L167 70H222" stroke="#F1A75B" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"></path>
+<path d="M133 132H207L184 94H124Z" fill="#FFD98A"></path>
+<path d="M165 70L154 41H190" stroke="#173943" stroke-linecap="round" stroke-width="9"></path>
+<rect fill="#173943" height="17" rx="9" width="61" x="113" y="82"></rect>
+<circle cx="139" cy="111" fill="#173943" r="5"></circle><circle cx="161" cy="111" fill="#173943" r="5"></circle>
+<path d="M144 121C149 126 155 126 160 121" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+</svg></div>
+<div class="who-text">
+<span class="tag">出廠滿 5 年燃油機車</span>
+<h3>今年的排氣定檢做了嗎？</h3>
+<p><b>已完成：</b>不用擔心逾期未定檢問題。<br/><b>還沒做：</b>請先完成當年度定檢。</p>
+</div>
+<div class="answer good">記得每年定檢</div>
+</article>
+<article class="who-card">
+<div class="who-icon"><svg aria-label="Q版柴油施工機具" class="embedded-svg" role="img" viewbox="0 0 300 190" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="150" cy="160" fill="#DFEEE9" rx="108" ry="14"></ellipse>
+<rect fill="#F1C75B" height="61" rx="14" width="120" x="58" y="86"></rect>
+<rect fill="#FFD982" height="45" rx="8" width="62" x="83" y="60"></rect>
+<path d="M178 101H218L247 132H178Z" fill="#E7B440"></path>
+<circle cx="89" cy="147" fill="#173943" r="24"></circle><circle cx="89" cy="147" fill="#BFD8D1" r="10"></circle>
+<circle cx="205" cy="147" fill="#173943" r="24"></circle><circle cx="205" cy="147" fill="#BFD8D1" r="10"></circle>
+<path d="M190 98L218 57L250 57" stroke="#173943" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"></path>
+<path d="M247 57L265 99" stroke="#173943" stroke-linecap="round" stroke-width="9"></path>
+<circle cx="104" cy="80" fill="#173943" r="4"></circle><circle cx="126" cy="80" fill="#173943" r="4"></circle>
+<path d="M109 90C114 95 120 95 125 90" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="4"></path>
+</svg></div>
+<div class="who-text">
+<span class="tag">柴油施工機具</span>
+<h3>清潔排放自主管理標章還有效嗎？</h3>
+<p>未取得有效期限內標章的柴油引擎施工機具，依公告規定不得進入。</p>
+</div>
+<div class="answer warning">檢查標章效期</div>
+</article>
+</div>
+<div class="exception">
+<div class="bubble-face">✓</div>
+<div>
+<h3>有些車輛有例外規定</h3>
+<p>
+              例如：柴油車已取得未逾有效期限的自主管理標章、出廠 3 年內（含）、
+              符合道路交通安全規則的特種車，或其他經環保局同意的車輛等。
+            </p>
+</div>
+</div>
+</div>
+</section>
+<section class="timeline-section" id="timeline">
+<div class="wrap">
+<div class="title center">
+<span>柴油小貨車</span>
+<h2>不是一次全部納管，是分 3 個階段</h2>
+<p>越後面的階段，納管的出廠年份範圍越大。</p>
+</div>
+<div class="timeline">
+<article class="stage active" id="stage1">
+<div class="stage-top"><span>1</span><b>第一階段</b></div>
+<h3>2025.01.01 起</h3>
+<p>2006.09.30（含）前出廠</p>
+<small>目前階段</small>
+</article>
+<div class="arrow">→</div>
+<article class="stage" id="stage2">
+<div class="stage-top"><span>2</span><b>第二階段</b></div>
+<h3>2027.01.01 起</h3>
+<p>2011.12.31（含）前出廠</p>
+<small>尚未開始</small>
+</article>
+<div class="arrow">→</div>
+<article class="stage" id="stage3">
+<div class="stage-top"><span>3</span><b>第三階段</b></div>
+<h3>2029.01.01 起</h3>
+<p>所有期別柴油小貨車</p>
+<small>尚未開始</small>
+</article>
+</div>
+<div class="timeline-tip">
+<b>怎麼判斷？</b>
+<p>先看行照上的車種與出廠年月，再確認近一年是否有符合公告要求的排煙檢驗合格紀錄。</p>
+</div>
+</div>
+</section>
+<section class="steps-section" id="steps">
+<div class="wrap">
+<div class="title center">
+<span>進入前怎麼做？</span>
+<h2>照著 3 步驟確認，最簡單</h2>
+</div>
+<div class="steps">
+<article>
+<div class="step-number">STEP 1</div>
+<h3>先認自己的車</h3>
+<p>柴油大客貨車？柴油小貨車？5 年以上燃油機車？還是施工機具？</p>
+</article>
+<article>
+<div class="step-number">STEP 2</div>
+<h3>再看檢驗或標章</h3>
+<p>柴油車看排煙檢驗、燃油機車看年度定檢、施工機具看清潔排放標章。</p>
+</article>
+<article>
+<div class="step-number">STEP 3</div>
+<h3>有問題就先處理</h3>
+<p>如果逾期或沒有合格紀錄，先完成檢驗，再進入空維區會比較安心。</p>
+</article>
+</div>
+</div>
+</section>
+<section class="why-section">
+<div class="wrap why-grid">
+<div>
+<span class="mini">為什麼要做空維區？</span>
+<h2>不是為了讓大家不方便，<br/>是希望高污染車輛先把排放顧好。</h2>
+<p>
+            板橋車站周邊人流、車流都很密集。透過定期檢驗與排放管理，
+            可以讓車輛維持較好的污染排放狀態，減少細懸浮微粒與氮氧化物等污染。
+          </p>
+</div>
+<svg aria-label="Q版人物在綠色城市中呼吸清新空氣" class="embedded-svg" role="img" viewbox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="260" cy="319" fill="#BFDDE4" rx="195" ry="23"></ellipse>
+<circle cx="410" cy="67" fill="#FFE7A8" r="43"></circle>
+<g fill="#fff"><ellipse cx="105" cy="70" rx="43" ry="20"></ellipse><ellipse cx="138" cy="70" rx="28" ry="18"></ellipse><ellipse cx="125" cy="55" rx="25" ry="22"></ellipse></g>
+<rect fill="#168B78" height="145" rx="10" width="70" x="242" y="138"></rect>
+<rect fill="#EAF8F4" height="105" rx="10" width="70" x="171" y="178"></rect>
+<rect fill="#fff" height="88" rx="10" width="66" x="313" y="195"></rect>
+<g fill="#8BD3C3"><rect height="18" rx="3" width="15" x="258" y="159"></rect><rect height="18" rx="3" width="15" x="283" y="159"></rect><rect height="18" rx="3" width="15" x="258" y="191"></rect><rect height="18" rx="3" width="15" x="283" y="191"></rect></g>
+<g><rect fill="#778F6F" height="64" rx="4" width="8" x="111" y="221"></rect><circle cx="115" cy="209" fill="#90D47C" r="34"></circle><rect fill="#778F6F" height="67" rx="4" width="8" x="399" y="218"></rect><circle cx="403" cy="204" fill="#90D47C" r="36"></circle></g>
+<!-- people -->
+<circle cx="137" cy="223" fill="#FFD3B5" r="24"></circle><path d="M116 216C122 191 154 191 160 216" fill="#173943"></path>
+<rect fill="#F1A75B" height="58" rx="20" width="54" x="112" y="246"></rect>
+<circle cx="132" cy="224" fill="#173943" r="3"></circle><circle cx="146" cy="224" fill="#173943" r="3"></circle><path d="M134 235C139 239 143 239 148 235" fill="none" stroke="#168B78" stroke-linecap="round" stroke-width="3"></path>
+<!-- air swirl -->
+<path d="M65 142C123 119 155 151 195 128C232 107 272 86 332 108" fill="none" stroke="#68C7B3" stroke-dasharray="11 12" stroke-linecap="round" stroke-width="8"></path>
+<path d="M338 110L321 97M338 110L319 118" stroke="#68C7B3" stroke-linecap="round" stroke-width="7"></path>
+</svg>
+</div>
+</section>
+<section class="faq-section" id="faq">
+<div class="wrap faq-grid">
+<div class="title">
+<span>常見問題</span>
+<h2>你可能也想問</h2>
+<p>點一下問題，就能看到簡單答案。</p>
+</div>
+<div class="faq-list">
+<details open="">
+<summary>所有汽車、機車都不能進入嗎？</summary>
+<p>不是。空維區是針對公告特定車種與排放條件管理，並不是全面禁止所有車輛。</p>
+</details>
+<details>
+<summary>我的機車超過 5 年，就不能進去嗎？</summary>
+<p>不是。重點是有沒有依規定完成當年度排氣定期檢驗；逾期未定檢才是加強取締對象。</p>
+</details>
+<details>
+<summary>柴油小貨車現在管到哪一年？</summary>
+<p id="faqTruck">目前第一階段：2006 年 9 月 30 日（含）前出廠的柴油小貨車納入管制。</p>
+</details>
+<details>
+<summary>違反規定會怎樣？</summary>
+<p>依正式公告，違反者可依空氣污染防制法相關規定處新臺幣 500 元以上、60,000 元以下罰鍰，並得要求改善。</p>
+</details>
+</div>
+</div>
+</section>
+<section class="official">
+<div class="wrap official-card">
+<svg aria-label="Q版公告文件圖示" class="embedded-svg" role="img" viewbox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#fff" height="120" rx="18" stroke="#B8DBD1" stroke-width="4" width="92" x="34" y="20"></rect>
+<rect fill="#168B78" height="12" rx="6" width="56" x="52" y="42"></rect>
+<rect fill="#C4DED7" height="8" rx="4" width="44" x="52" y="67"></rect>
+<rect fill="#C4DED7" height="8" rx="4" width="56" x="52" y="84"></rect>
+<rect fill="#C4DED7" height="8" rx="4" width="38" x="52" y="101"></rect>
+<circle cx="112" cy="111" fill="#FFE7A8" r="25" stroke="#F0C75F" stroke-width="3"></circle>
+<path d="M101 111L109 119L124 102" fill="none" stroke="#168B78" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"></path>
+</svg>
+<div>
+<span>最後提醒</span>
+<h2>這一頁幫你「看懂」，正式規定還是要看官方公告</h2>
+<p>本網站為資訊整理範本；正式發布前，請再次確認公告內容、聯絡方式及外部查詢連結。</p>
+</div>
+<a class="btn primary" href="https://www.epd.ntpc.gov.tw/StaticPage/banqiao-airzone-mobile-control" rel="noopener" target="_blank">查看環保局正式公告 ↗</a>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap footer-main">
+<div>
+<b>板橋雙子星空氣品質維護區</b>
+<p>車輛定期檢驗，一起守護板橋好空氣。</p>
+</div>
+<a href="#top">回到最上面 ↑</a>
+</div>
+<div class="wrap footer-note">
+      【本頁為網站範本，正式發布前請更新聯絡方式及公告內容。】
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
